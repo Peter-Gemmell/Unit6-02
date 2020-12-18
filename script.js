@@ -1,7 +1,7 @@
 function myFunction () {
-  const x, text
+  var x, text
 
-  const x = document.getElementById('numb').value
+  var x = document.getElementById('numb').value
 
   if (isNaN(x)) { 
     text = 'Input is not a number'
