@@ -1,14 +1,13 @@
 function myFunction () {
-  var x, text
 
-  var x = document.getElementById('numb').value
+  const x = document.getElementById('numb').value
 
-  if (isNaN(x)) { 
+  if (isNaN(x)) {
     text = 'Input is not a number'
   } else if (x < 0) {
     text = 'Input is a negative integer'
-  } else { 
+  } else {
     text = 'Input is a positive integer'
-  } 
+  }
   document.getElementById('demo').innerHTML = text;
 }
